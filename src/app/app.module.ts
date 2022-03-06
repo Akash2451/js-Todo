@@ -8,6 +8,9 @@ import { SidebarComponent } from './common/sidebar/sidebar.component';
 import { RightsidebarComponent } from './common/rightsidebar/rightsidebar.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { TodolistComponent } from './home/todolist/todolist.component';
+import { AddTodoComponent } from './home/add-todo/add-todo.component';
+import { EditTodoComponent } from './home/edit-todo/edit-todo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HomeComponent } from './home/home.component';
     SidebarComponent,
     RightsidebarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    TodolistComponent,
+    AddTodoComponent,
+    EditTodoComponent
   ],
   imports: [
     BrowserModule,
