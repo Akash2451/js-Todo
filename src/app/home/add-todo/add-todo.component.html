@@ -1,1 +1,13 @@
-<p>add-todo works!</p>
+
+<form [formGroup]="newTask " (submit)="add()">
+    <legend>New Task</legend>
+
+    <div class="form-group">
+<label for="">Task Details</label>
+<input type="text" class="form-control" placeholder="Enter new task" formControlName="task">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!-- {{newTask.value | json}} -->
